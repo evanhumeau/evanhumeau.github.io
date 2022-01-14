@@ -1,4 +1,4 @@
-var slide = new Array("images/1.png", "images/2.png", "images/3.png", "images/4.png");
+var slide = new Array("images/1.jpg", "images/2.jpg", "images/3.jpg", "images/4.jpg");
 var numero = 0;
 
 function ChangeSlide(sens) {
