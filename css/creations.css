@@ -1,0 +1,27 @@
+
+iframe{
+	width: 65%;
+}
+
+p a{
+	margin-right: 10px;
+	padding: 10px;
+	background-color: #370028;
+}
+
+h3{
+	color: #fff;
+	text-align: center;
+	margin: 0px;
+	font-size: 250%;
+}
+
+.creations{
+	background: #222;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+p{
+	color: #fff;
+}

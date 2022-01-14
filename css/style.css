@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* Fond
+------------------------------------------------------------------- */
+
+body {
+    font-family: "arial", sans-serif;
+    text-align: center;
+}
+
+/* couleur de fond du site = noir */ 
+body {
+	background: #111;
+}
+
+
+/* Header
+------------------------------------------------------------------- */
+
+a, /* la balise a et plus précisement les buttons dedans */ 
+button {
+	position: relative; /* placer l'animation de la barre blanche en dessous du text */
+	text-decoration: none; /* pas de soulignement */
+	color: #fff; /* blanc */
+}
+#header nav li a::before,
+#header nav li a::after,
+.hv a::after,
+a.hv::after {
+	background: #fff; /* couleur de la barre (blanc) */
+	 height: 1px; /* taille de la barre */
+	position: absolute;
+	content: "";
+}
+
+#header nav {
+	text-align: center; /* text alligné au centre */
+}
+#header nav ul {
+	text-align: center;
+	font-size: 0;
+	line-height: 1; /* taille du text */
+}
+#header nav li {
+	display: inline-block; /* les mettre de gauches à droite plutôt que de haut en bas */
+	font-size: 16px; /* taille police */
+}
+#header nav li + li {
+	margin: 0 0 0 30px; /* espace entre les text */
+}
+#header nav li a {
+	padding: 15px 0; /*le text se place bien */
+	display: block;
+}
+
+
+#header nav li a::before,
+#header nav li a::after {
+	width: 0;
+	bottom: 12px;   /* barre blanche en dessous */
+	opacity: 1;
+	transition: all 0.2s ease-out; /* durée animation */
+}
+#header nav li a::before {
+	left: 50%; /* placement de la barre blanche */
+}
+#header nav li a::after {
+	left: auto;  /* placement de la barre blanche */
+	right: 50%;
+}
+
+#header nav li a:hover::before,
+#header nav li a:hover::after {
+	width: 50%;
+}
+
+/* Footer
+------------------------------------------------------------------- */
+
+#footer {
+  position: relative; /*absolute*/
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  width: 99%;
+}
+
+#footer ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+
+small {
+	display: block;
+	float: right;
+	clear: right;
+	line-height: 1;
+}
+
+a, /* la balise a et plus précisement les buttons dedans */ 
+button {
+	position: relative; /* placer l'animation de la barre blanche en dessous du text */
+	text-decoration: none; /* pas de soulignement */
+	color: #fff; /* blanc */
+}
+#footer nav li a::before,
+#footer nav li a::after,
+.hv a::after,
+a.hv::after {
+	background: #fff; /* couleur de la barre (blanc) */
+	 height: 1px; /* taille de la barre */
+	position: absolute;
+	content: "";
+}
+
+#footer nav {
+	text-align: center; /* text alligné au centre */
+}
+#footer nav ul {
+	text-align: center;
+	font-size: 0;
+	line-height: 1; /* taille du text */
+}
+#footer nav li {
+	display: inline-block; /* les mettre de gauches à droite plutôt que de haut en bas */
+	font-size: 16px; /* taille police */
+}
+#footer nav li + li {
+	margin: 0 0 0 30px; /* espace entre les text */
+}
+#footer nav li a {
+	padding: 15px 0; /*le text se place bien */
+	display: block;
+}
+
+
+#footer nav li a::before,
+#footer nav li a::after {
+	width: 0;
+	bottom: 12px;   /* barre blanche en dessous */
+	opacity: 1;
+	transition: all 0.2s ease-out; /* durée animation */
+}
+#footer nav li a::before {
+	left: 50%; /* placement de la barre blanche */
+}
+#footer nav li a::after {
+	left: auto;  /* placement de la barre blanche */
+	right: 50%;
+}
+
+#footer nav li a:hover::before,
+#footer nav li a:hover::after {
+	width: 50%;
+}

@@ -1,0 +1,25 @@
+h2{
+	font-size: 420%;
+	color: #111;
+	width: 100%;
+	height: auto;
+}
+
+
+p a{
+	padding: 20px;
+	text-decoration: underline;
+}
+
+.responsive {
+  width: 300px;
+  height: auto;
+}
+
+article p a{
+	color: #fff;
+}
+
+.infos p{
+	color: #fff;
+}
