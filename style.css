@@ -1,0 +1,114 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto, sans-serif;
+}
+
+h3{
+  color: #587D9F;
+  font-size: 40px;
+  text-align: center;
+}
+
+p{
+  font-size: 18px;
+  padding: 10px;
+}
+
+#BigBox {
+  width: 100%;
+  height: 100%;
+  background-image: url("img/bg.jpg");
+}
+
+#BigBox2 {
+  width: 100%;
+  height: 100%;
+  background-color: #111;
+}
+
+#MainWindow {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+}
+
+.NavBar{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #81373C;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.NavBar a{
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar a:hover{
+  color: #587D9F;
+  text-decoration: none;
+}
+
+
+.Content{
+  background-color: white;
+  padding: 15px;
+}
+
+#cv {
+  width: 930px;
+}
+
+
+a{
+  text-decoration: none;
+  color: #81373C;
+  font-size: 28px;
+}
+
+a:hover{
+  color: #587D9F;
+  text-decoration: none;
+}
+
+#dlcv{
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+}
+
+.GrandBox{
+  border: solid;
+  border-color: #81373C;
+  border-radius: 15px;
+  background-color: #eee;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.GrandBox a{
+  font-size: 40px;
+}
+
+.InTheBox{
+  width: 360px;
+}
+
+@media screen and (max-width: 960px) {
+  #MainWindow {
+    width: 100%;
+  }
+    .NavBar {
+    flex-direction: column;
+  }
+  #cv {
+  width: 100%;
+}
+
+}
