@@ -92,6 +92,13 @@ a:hover{
   padding-bottom: 15px;
 }
 
+.GrandBox h5{
+  font-size: 24px;
+  color: #587D9F;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 .GrandBox a{
   font-size: 40px;
 }
