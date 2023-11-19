@@ -21,7 +21,7 @@ p{
   background-image: url("img/bg.jpg");
 }
 
-#BigBoxx {
+#BigBox2 {
   width: 100%;
   height: 100%;
   background-image: url("img/PatternGameWhiteBG.png");
@@ -96,7 +96,7 @@ a:hover{
   font-size: 40px;
 }
 
-.GrandBoxx{
+.GrandBox2{
   border: solid;
   border-color: #81373C;
   border-radius: 15px;
@@ -106,12 +106,12 @@ a:hover{
   padding-bottom: 15px;
 }
 
-.GrandBoxx a{
+.GrandBox2 a{
   font-size: 24px;
   font-weight: 900;
 }
 
-.GrandBoxx h4{
+.GrandBox2 h4{
   font-size: 32px;
   background-color: #81373C;
   color: #eee;
@@ -119,14 +119,14 @@ a:hover{
   padding-bottom: 10px;
 }
 
-.GrandBoxx h5{
+.GrandBox2 h5{
   font-size: 24px;
   color: #587D9F;
   font-weight: bold;
   text-decoration: underline;
 }
 
-.GrandBoxx p{
+.GrandBox2 p{
   font-size: 24px;
   color: #555;
   text-align: justify;
@@ -139,7 +139,7 @@ a:hover{
   width: 360px;
 }
 
-.InTheBoxx{
+.InTheBox2{
   width: 720px;
 }
 
