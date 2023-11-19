@@ -24,7 +24,7 @@ p{
 #BigBox2 {
   width: 100%;
   height: 100%;
-  background-color: #111;
+  background-image: url("img/PatternGameWhiteBG.png");
 }
 
 #MainWindow {
@@ -61,7 +61,7 @@ p{
 }
 
 #cv {
-  width: 930px;
+  width: 800px;
 }
 
 
@@ -96,8 +96,51 @@ a:hover{
   font-size: 40px;
 }
 
+.GrandBox2{
+  border: solid;
+  border-color: #81373C;
+  border-radius: 15px;
+  background-color: #eee;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.GrandBox2 a{
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.GrandBox2 h4{
+  font-size: 32px;
+  background-color: #81373C;
+  color: #eee;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.GrandBox2 h5{
+  font-size: 24px;
+  color: #587D9F;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.GrandBox2 p{
+  font-size: 24px;
+  color: #555;
+  text-align: justify;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+
 .InTheBox{
   width: 360px;
+}
+
+.InTheBox2{
+  width: 720px;
 }
 
 @media screen and (max-width: 960px) {
