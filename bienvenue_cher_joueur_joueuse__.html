@@ -77,6 +77,7 @@ ITM 0 2,13
 ITM 0 14,12
 ITM 0 12,7
 PAL 1
+TUNE 2
 
 ROOM 3
 t,q,q,q,q,q,q,q,q,q,q,q,q,q,q,s
@@ -97,6 +98,7 @@ r,n,0,0,0,m,0,0,0,0,0,0,n,0,0,r
 u,q,q,q,q,q,q,q,q,q,q,q,q,q,q,v
 NAME example room copy 2
 PAL 1
+TUNE 2
 
 ROOM 4
 s,0,0,o,0,o,0,0,m,0,0,0,o,0,1f,1b
@@ -133,9 +135,31 @@ q,v,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,1e,0,0,0,0,0,0,0,0,0,0,1d,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
 NAME Room4 copy 1
+PAL 1
+TUNE 3
+
+ROOM 6
+1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1c,0,0,0,0,0,0,0,0,0,0,1f,1b,1b
+1b,1b,0,0,1b,0,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,0,1b,0,0,0,1b,0,0,0,0,0,1b,1b
+1b,1b,1b,0,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b
+1b,1b,0,0,1b,0,0,0,0,0,0,0,0,0,1b,1b
+1b,1b,0,1b,1b,1b,0,1b,1b,1b,1b,0,1b,0,1b,1b
+1b,1b,0,0,0,0,0,1b,0,0,1b,0,1b,0,1b,1b
+1b,1b,0,1b,1b,1b,0,1b,0,0,0,0,1b,0,1b,1b
+1b,1b,0,0,0,1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b
+1b,1b,1b,1b,0,0,0,1b,0,0,0,0,0,0,1b,1b
+1b,1b,0,1b,1b,1b,1b,1b,0,1b,1b,1b,0,0,1b,1b
+1b,1b,1e,0,0,0,0,0,0,0,0,0,0,1d,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
+NAME Room4 copy 2
+ITM 1 8,11
 PAL 1
 
 TIL 10
@@ -652,7 +676,71 @@ SPR e
 10000101
 10000001
 01111110
+DLG 9
 POS 5 8,7
+
+SPR f
+00000000
+00000000
+00011000
+01100110
+10111101
+01000010
+10000001
+01111110
+>
+00000000
+00011000
+01100110
+10111101
+01000010
+10000101
+10000001
+01111110
+DLG 6
+POS 5 11,7
+
+SPR g
+00000000
+01010101
+10101010
+01010101
+11111111
+11111111
+11111111
+11111111
+>
+00000000
+10101010
+01010101
+10101010
+11111111
+11111111
+11111111
+11111111
+DLG 7
+POS 5 8,15
+
+SPR h
+11111111
+11111111
+11111111
+11111111
+10101010
+01010101
+10101010
+00000000
+>
+11111111
+11111111
+11111111
+11111111
+01010101
+10101010
+01010101
+00000000
+DLG 8
+POS 6 8,0
 
 ITM 0
 00000000
@@ -670,13 +758,13 @@ BLIP 2
 ITM 1
 00000000
 00111100
-00100100
+01000110
+01000110
+01001010
+01010010
 00111100
-00010000
-00011000
-00010000
-00011000
-NAME key
+00000000
+NAME Bandages
 DLG 2
 BLIP 2
 
@@ -696,7 +784,7 @@ Tu as trouvé une graine
 NAME tea dialog
 
 DLG 2
-A key! {wvy}What does it open?{wvy}
+Un bandage ! {wvy}Je dois pouvoir soigner le slime avec...{wvy}
 NAME key dialog
 
 DLG 3
@@ -710,6 +798,29 @@ NAME feuille dialog
 DLG 5
 {exit "5" 1 7}
 NAME sprite d dialog
+
+DLG 6
+"""
+{
+  - {item "1"} == 1 ?
+    Vous entourez le slime avec le bandage, il semble aller mieux. {pg}{rbw}Le second slime vous remercie{/rbw}{pg}Félicitation, vous avez réussi !{end}
+  - else ?
+    *Blob* *blob*, ce slime n'a pas l'air d'aller bien...
+}
+"""
+NAME sprite f dialog
+
+DLG 7
+{exit "6" 8 1}
+NAME sprite g dialog
+
+DLG 8
+{exit "5" 8 14}
+NAME sprite h dialog
+
+DLG 9
+Le slime semble paniquer 
+NAME sprite e dialog
 
 VAR a
 42
