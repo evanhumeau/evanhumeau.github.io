@@ -11,10 +11,10 @@
 <script type="text/bitsyGameData" id="exportedGameData">
 Bienvenue cher Joueur/Joueuse, 
 
-# BITSY VERSION 8.7
+# BITSY VERSION 8.9
 
 ! VER_MAJ 8
-! VER_MIN 7
+! VER_MIN 9
 ! ROOM_FORMAT 1
 ! DLG_COMPAT 0
 ! TXT_MODE 0
@@ -135,32 +135,11 @@ q,v,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,0,0,0,0,0,0,0,0,0,0,0,0,1b,1b
 1b,1b,1e,0,0,0,0,0,0,0,0,0,0,1d,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
+1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
 NAME Room4 copy 1
 PAL 1
 TUNE 3
-
-ROOM 6
-1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1c,0,0,0,0,0,0,0,0,0,0,1f,1b,1b
-1b,1b,0,0,1b,0,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1b,0,1b,0,0,0,1b,0,0,0,0,0,1b,1b
-1b,1b,1b,0,1b,1b,1b,1b,1b,0,1b,1b,1b,1b,1b,1b
-1b,1b,0,0,1b,0,0,0,0,0,0,0,0,0,1b,1b
-1b,1b,0,1b,1b,1b,0,1b,1b,1b,1b,0,1b,0,1b,1b
-1b,1b,0,0,0,0,0,1b,0,0,1b,0,1b,0,1b,1b
-1b,1b,0,1b,1b,1b,0,1b,0,0,0,0,1b,0,1b,1b
-1b,1b,0,0,0,1b,1b,1b,1b,1b,1b,1b,1b,0,1b,1b
-1b,1b,1b,1b,0,0,0,1b,0,0,0,0,0,0,1b,1b
-1b,1b,0,1b,1b,1b,1b,1b,0,1b,1b,1b,0,0,1b,1b
-1b,1b,1e,0,0,0,0,0,0,0,0,0,0,1d,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
-1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b,1b
-NAME Room4 copy 2
-ITM 1 8,11
-PAL 1
 
 TIL 10
 11101000
@@ -676,71 +655,7 @@ SPR e
 10000101
 10000001
 01111110
-DLG 9
 POS 5 8,7
-
-SPR f
-00000000
-00000000
-00011000
-01100110
-10111101
-01000010
-10000001
-01111110
->
-00000000
-00011000
-01100110
-10111101
-01000010
-10000101
-10000001
-01111110
-DLG 6
-POS 5 11,7
-
-SPR g
-00000000
-01010101
-10101010
-01010101
-11111111
-11111111
-11111111
-11111111
->
-00000000
-10101010
-01010101
-10101010
-11111111
-11111111
-11111111
-11111111
-DLG 7
-POS 5 8,15
-
-SPR h
-11111111
-11111111
-11111111
-11111111
-10101010
-01010101
-10101010
-00000000
->
-11111111
-11111111
-11111111
-11111111
-01010101
-10101010
-01010101
-00000000
-DLG 8
-POS 6 8,0
 
 ITM 0
 00000000
@@ -758,20 +673,20 @@ BLIP 2
 ITM 1
 00000000
 00111100
-01000110
-01000110
-01001010
-01010010
+00100100
 00111100
-00000000
-NAME Bandages
+00010000
+00011000
+00010000
+00011000
+NAME key
 DLG 2
 BLIP 2
 
 DLG 0
 """
 {
-  - {item "0"} <= 3 ?
+  - {item "0"} >= 3 ?
     Le slime semble être heureux, il vous invite à le suivre.{pg}{exit "3" 7 13}
   - else ?
     *Blob* *blob* {wvy}Ce slime à l'air d'avoir faim{wvy} Je vais devoir trouver quelque chose pour le nourrir{pg}Il te faut trois graines pour nourrir le slime...
@@ -784,7 +699,7 @@ Tu as trouvé une graine
 NAME tea dialog
 
 DLG 2
-Un bandage ! {wvy}Je dois pouvoir soigner le slime avec...{wvy}
+A key! {wvy}What does it open?{wvy}
 NAME key dialog
 
 DLG 3
@@ -798,29 +713,6 @@ NAME feuille dialog
 DLG 5
 {exit "5" 1 7}
 NAME sprite d dialog
-
-DLG 6
-"""
-{
-  - {item "1"} == 1 ?
-    Vous entourez le slime avec le bandage, il semble aller mieux. {pg}{rbw}Le second slime vous remercie{/rbw}{pg}Félicitation, vous avez réussi !{end}
-  - else ?
-    *Blob* *blob*, ce slime n'a pas l'air d'aller bien...
-}
-"""
-NAME sprite f dialog
-
-DLG 7
-{exit "6" 8 1}
-NAME sprite g dialog
-
-DLG 8
-{exit "5" 8 14}
-NAME sprite h dialog
-
-DLG 9
-Le slime semble paniquer 
-NAME sprite e dialog
 
 VAR a
 42
@@ -1929,7 +1821,7 @@ function BitsySystem(name) {
 			count--;
 		}
 
-		if (memory.blocks[next] != undefined) {
+		if (count == 0) {
 			// couldn't find any available block
 			return null;
 		}
@@ -2135,6 +2027,15 @@ function BitsySystem(name) {
 		self._free(tile);
 	};
 
+	this.deleteAllTiles = function() {
+		if (tilePoolStart != null) {
+			for (var i = 0; i < tilePoolSize; i++) {
+				var tile = tilePoolStart + i;
+				this.delete(tile);
+			}
+		}
+	};
+
 	this.fill = function(block, value) {
 		var len = memory.blocks[block].length;
 		for (var i = 0; i < len; i++) {
@@ -2251,7 +2152,7 @@ var bitsy = mainProcess.system;
 // is this the right place for this to live?
 var version = {
 	major: 8, // major changes
-	minor: 7, // smaller changes
+	minor: 9, // smaller changes
 	devBuildPhase: "RELEASE",
 };
 function getEngineVersion() {
@@ -8484,12 +8385,7 @@ this.GetFrameCount = function(drawingId) {
 // todo : forceReset option is hacky?
 this.ClearCache = function(forceReset) {
 	if (forceReset === undefined || forceReset === true) {
-		for (var cacheId in drawingCache.render) {
-			var tiles = drawingCache.render[cacheId];
-			for (var i = 0; i < tiles.length; i++) {
-				bitsy.delete(tiles[i]);
-			}
-		}
+		bitsy.deleteAllTiles();
 	}
 
 	drawingCache.render = {};
