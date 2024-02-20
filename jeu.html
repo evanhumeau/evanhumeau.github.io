@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+</head>
+<body>
+
+<div class="video-bg">
+ <video width="320" height="240" autoplay loop muted>
+  <source src="BouncingBG.mp4" type="video/mp4"> <!-- https://assets.codepen.io/3364143/7btrrd.mp4 -->
+Your browser does not support the video tag.
+</video>
+</div>
+<!-- <div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
+   </div> -->
+<div class="app">
+ 
+  <div class="wrapper"> 
+    <div class="left-side">
+   <div class="side-wrapper">
+    <div class="side-menu">
+     
+     <!-- LIENS SUR LA GAUCHE -->
+
+     <a href="#">
+      <svg viewBox="0 0 488.455 488.455" fill="currentColor">
+       <path d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0" />
+       <path d="M427.397 91.581H385.21l-30.544-61.059H133.76l-30.515 61.089-42.127.075C27.533 91.746.193 119.115.164 152.715L0 396.86c0 33.675 27.384 61.074 61.059 61.074h366.338c33.675 0 61.059-27.384 61.059-61.059V152.639c-.001-33.674-27.385-61.058-61.059-61.058zM244.22 381.61c-67.335 0-122.118-54.783-122.118-122.118s54.783-122.118 122.118-122.118 122.118 54.783 122.118 122.118S311.555 381.61 244.22 381.61z" />
+      </svg>
+     </a> 
+     <a href="video.html">
+      <svg viewBox="0 0 58 58" fill="currentColor">
+       <path d="M57 6H1a1 1 0 00-1 1v44a1 1 0 001 1h56a1 1 0 001-1V7a1 1 0 00-1-1zM10 50H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2V8h8v9zm26.537 12.844l-11 7a1.007 1.007 0 01-1.018.033A1.001 1.001 0 0124 36V22a1.001 1.001 0 011.538-.844l11 7a1.003 1.003 0 01-.001 1.688zM56 50h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8V8h8v9z" />
+      </svg>
+     </a>
+     <a href="#">
+      <svg viewBox="0 0 512 512" fill="currentColor">
+       <path d="M499.377 46.402c-8.014-8.006-18.662-12.485-29.985-12.613a41.13 41.13 0 00-.496-.003c-11.142 0-21.698 4.229-29.771 11.945L198.872 275.458c25.716 6.555 47.683 23.057 62.044 47.196a113.544 113.544 0 0110.453 23.179L500.06 106.661C507.759 98.604 512 88.031 512 76.89c0-11.507-4.478-22.33-12.623-30.488zM176.588 302.344a86.035 86.035 0 00-3.626-.076c-20.273 0-40.381 7.05-56.784 18.851-19.772 14.225-27.656 34.656-42.174 53.27C55.8 397.728 27.795 409.14 0 416.923c16.187 42.781 76.32 60.297 115.752 61.24 1.416.034 2.839.051 4.273.051 44.646 0 97.233-16.594 118.755-60.522 23.628-48.224-5.496-112.975-62.192-115.348z" />
+      </svg>
+     </a>
+     
+    </div>
+   </div>
+ 
+  </div> 
+
+
+  <!-- LIENS DU HAUT -->
+
+  <div class="main-container">
+   <div class="main-header">
+    <a class="menu-link-main" href="index.html">Foks</a>
+    <div class="header-menu">
+     <a class="main-header-link" href="index.html">Accueil</a> <!-- Mettre des choses à propos de moi dedans (courte phrase à propos de mes études, passions et contact) -->
+     <a class="main-header-link is-active" href="jeu.html">Jeux vidéo</a>
+     <a class="main-header-link" href="web.html">Sites Web</a>
+     <a class="main-header-link" href="modelisation.html">Modélisation 3D</a>
+
+    </div>
+   </div>
+   
+   
+   <div class="content-wrapper">
+    
+    <!-- CATEGORIES PRINCIPALES -->
+
+    <div class="content-section">
+      <div class="content-section-title">Logiciels utilisés</div> 
+
+     <ul>
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg viewBox="-15 -15 130 130">
+          <g xmlns="http://www.w3.org/2000/svg">
+            <path fill="#110b09" d="M 82.775,79.842 64.9,49.775 82.775,19.708 91.392,49.775 Z M 42.992,76.908 20.533,54.633 h 35.75 L 74.158,84.7 Z m 0,-54.358 31.075,-7.792 -17.875,30.067 H 20.442 Z M 88.642,0 48.033,10.542 41.983,20.9 29.792,20.808 0,49.775 29.792,78.742 41.983,78.65 48.033,89.008 88.642,99.642 99.55,60.133 93.408,49.867 99.55,39.6 Z m 92.216,29.242 c -5.408,0 -9.075,2.291 -11.825,6.508 h -0.183 v -5.408 h -9.533 v 39.783 h 9.716 v -22.55 c 0,-5.408 3.392,-9.167 8.067,-9.167 4.4,0 7.7,2.659 7.7,7.334 v 24.475 h 9.717 V 44.183 c 0.091,-8.708 -5.409,-14.941 -13.659,-14.941 z m -36.3,24.108 c 0,5.317 -3.025,8.983 -7.975,8.983 -4.491,0 -7.333,-2.566 -7.333,-7.241 v -24.75 h -9.717 v 26.583 c 0,8.708 4.95,14.392 13.842,14.392 5.592,0 8.708,-2.109 11.367,-5.775 h 0.275 v 4.675 h 9.35 V 30.342 H 144.65 V 53.35 Z m 55.184,-23.008 h 9.716 v 39.783 h -9.716 z m 0,-12.375 h 9.716 v 7.975 h -9.716 z m 64.808,12.375 -5.775,17.966 c -1.283,3.667 -2.292,8.709 -2.292,8.709 h -0.275 c 0,0 -1.283,-5.042 -2.566,-8.709 l -6.509,-17.966 h -10.45 l 10.725,28.325 c 2.292,6.05 3.025,8.616 3.025,10.816 0,3.3 -1.741,5.409 -5.866,5.409 h -3.759 v 8.341 h 6.234 c 8.066,0 10.908,-3.208 13.933,-12.008 L 275,30.433 H 264.55 Z M 227.608,58.483 V 37.4 h 6.234 v -6.967 h -6.234 V 17.967 h -9.716 v 12.375 h -5.5 v 6.966 h 5.5 v 23.375 c 0,7.517 5.683,9.534 10.816,9.534 4.217,0 5.317,-0.184 5.317,-0.184 v -7.7 h -2.475 c -2.292,0.092 -3.942,-0.916 -3.942,-3.85 z"/>
+          </g>
+        </svg>
+        Unity
+       </div>
+
+       <span class="status">
+        <span class="status-circle green"></span>
+        utilisé fréquemment</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Moteur de jeu</button>
+          
+         </div>
+
+      </li>
+      
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg style="clip-rule:evenodd;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2" version="1.1" viewBox="30 0 600 550" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+
+          <g transform="translate(-7.7861)">
+          <g id="vlpa" transform="matrix(1 0 0 .8352 7.7861 -42.991)">
+          <rect y="51.474" width="2048" height="658.52" style="fill:none"/>
+          <g transform="matrix(4.1667 0 0 4.9888 -191.11 2195)">
+          <g transform="matrix(5.1923 0 0 5.1923 -1154.3 1375.3)">
+          <path d="m243.13-333.72c0.106-1.891 1.032-3.557 2.429-4.738 1.37-1.16 3.214-1.869 5.226-1.869 2.01 0 3.854 0.709 5.225 1.869 1.396 1.181 2.322 2.847 2.429 4.736 0.106 1.943-0.675 3.748-2.045 5.086-1.397 1.361-3.384 2.215-5.609 2.215s-4.216-0.854-5.612-2.215c-1.371-1.338-2.15-3.143-2.043-5.084z" style="fill-rule:nonzero;fill:#fff"/>
+          </g>
+          <g transform="matrix(2.6642 0 0 2.6642 -520.32 532.51)">
+          <path d="m243.13-333.72c0.106-1.891 1.032-3.557 2.429-4.738 1.37-1.16 3.214-1.869 5.226-1.869 2.01 0 3.854 0.709 5.225 1.869 1.396 1.181 2.322 2.847 2.429 4.736 0.106 1.943-0.675 3.748-2.045 5.086-1.397 1.361-3.384 2.215-5.609 2.215s-4.216-0.854-5.612-2.215c-1.371-1.338-2.15-3.143-2.043-5.084z" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m230.94-329.89c0.013 0.74 0.249 2.178 0.603 3.301 0.744 2.377 2.006 4.576 3.762 6.514 1.802 1.992 4.021 3.592 6.584 4.728 2.694 1.193 5.613 1.801 8.645 1.796 3.027-4e-3 5.946-0.624 8.64-1.826 2.563-1.147 4.78-2.754 6.579-4.747 1.755-1.946 3.015-4.149 3.761-6.526 0.375-1.201 0.612-2.42 0.707-3.643 0.093-1.205 0.054-2.412-0.117-3.618-0.334-2.35-1.147-4.555-2.399-6.565-1.145-1.847-2.621-3.464-4.376-4.825l4e-3 -3e-3 -17.711-13.599c-0.016-0.012-0.029-0.025-0.046-0.036-1.162-0.892-3.116-0.889-4.394 5e-3 -1.292 0.904-1.44 2.399-0.29 3.342l-5e-3 5e-3 7.387 6.007-22.515 0.024h-0.03c-1.861 2e-3 -3.65 1.223-4.004 2.766-0.364 1.572 0.9 2.876 2.835 2.883l-3e-3 7e-3 11.412-0.022-20.364 15.631c-0.026 0.019-0.054 0.039-0.078 0.058-1.921 1.471-2.542 3.917-1.332 5.465 1.228 1.574 3.839 1.577 5.78 9e-3l11.114-9.096s-0.162 1.228-0.149 1.965zm28.559 4.112c-2.29 2.333-5.496 3.656-8.965 3.663-3.474 6e-3 -6.68-1.305-8.97-3.634-1.119-1.135-1.941-2.441-2.448-3.832-0.497-1.367-0.69-2.818-0.562-4.282 0.121-1.431 0.547-2.796 1.227-4.031 0.668-1.214 1.588-2.311 2.724-3.239 2.226-1.814 5.06-2.796 8.024-2.8 2.967-4e-3 5.799 0.969 8.027 2.777 1.134 0.924 2.053 2.017 2.721 3.229 0.683 1.234 1.106 2.594 1.232 4.029 0.126 1.462-0.067 2.911-0.564 4.279-0.508 1.395-1.327 2.701-2.446 3.841z" style="fill-rule:nonzero;fill:#ea7600"/>
+          <path d="m364.47-333.75c0.171-1.908 1.646-3.118 3.899-3.118 2.256 0 3.73 1.21 3.901 3.118h-7.8zm7.569 4.711c-0.577 1.414-1.937 2.251-3.784 2.251-2.313 0-3.87-1.444-3.933-3.725h13.297v-0.671c0-5.714-3.354-8.925-9.364-8.925-5.836 0-9.365 3.241-9.365 8.324 0 5.114 3.584 8.35 9.365 8.35 3.469 0 6.159-1.189 7.817-3.279l-4.033-2.325z" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m305.47-333.74c0.176-1.908 1.651-3.118 3.906-3.118 2.252 0 3.726 1.21 3.899 3.118h-7.805zm7.574 4.711c-0.578 1.418-1.937 2.255-3.788 2.255-2.309 0-3.87-1.448-3.931-3.73h13.294v-0.667c0-5.717-3.353-8.929-9.363-8.929-5.839 0-9.361 3.242-9.361 8.325 0 5.114 3.582 8.35 9.361 8.35 3.468 0 6.16-1.185 7.821-3.278l-4.033-2.326z" style="fill-rule:nonzero;fill:#265787"/>
+          <rect x="293.91" y="-343.56" width="4.795" height="19.617" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m319.81-338.35h4.822v1.168c1.707-1.822 3.757-2.743 6.069-2.743 2.663 0 4.679 0.921 5.72 2.489 0.869 1.295 0.926 2.858 0.926 4.912v8.579h-4.829v-7.538c0-3.128-0.629-4.572-3.375-4.572-2.775 0-4.511 1.653-4.511 4.428v7.682h-4.822v-14.405z" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m352.88-331.54c0 2.685-1.794 4.446-4.57 4.446-2.778 0-4.572-1.701-4.572-4.415 0-2.754 1.77-4.454 4.572-4.454 2.776 0 4.57 1.73 4.57 4.423zm0-6.157c-1.219-1.307-2.983-2.024-5.435-2.024-5.29 0-8.902 3.262-8.902 8.151 0 4.793 3.587 8.146 8.815 8.146 2.397 0 4.157-0.606 5.522-1.965v1.444h4.825v-20.861l-4.825 1.244v5.865z" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m282.95-335.96c2.804 0 4.567 1.7 4.567 4.454 0 2.714-1.791 4.415-4.567 4.415-2.774 0-4.566-1.761-4.566-4.446 0-2.693 1.792-4.423 4.566-4.423zm-4.566-7.599-4.827-1.244v20.861h4.827v-1.444c1.358 1.359 3.121 1.965 5.52 1.965 5.231 0 8.813-3.353 8.813-8.146 0-4.889-3.613-8.151-8.9-8.151-2.457 0-4.22 0.717-5.433 2.024v-5.865z" style="fill-rule:nonzero;fill:#265787"/>
+          <path d="m378.81-323.94v-14.405h4.825v0.89c1.445-1.74 2.974-2.606 4.713-2.606 0.345 0 0.779 0.056 1.356 0.113v4.107c-0.465-0.061-0.983-0.061-1.533-0.061-2.805 0-4.536 1.85-4.536 4.996v6.966h-4.825z" style="fill-rule:nonzero;fill:#265787"/>
+          </g>
+          <g transform="matrix(.27199 0 0 .27199 -78.096 -584.9)">
+          
+          </g>
+          </g>
+          </g>
+          </g>
+          </svg>
+        Blender
+       </div>
+
+       <span class="status">
+        <span class="status-circle green"></span>
+        utilisé fréquemment</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Modélisateur 3D</button>
+          
+         </div>
+
+      </li>
+
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="-5 -5 52 52">
+        <path fill="#fe900d" d="M17.398,10.374c0,0-6.398,6.887-6.398,19.041C11,39.616,15.005,44,18.677,44 c1.706,0,7.25-1.215,12.795-10.533c6.407-10.767,5.545-15.8,5.545-15.8L17.398,10.374z"></path><path fill="#4aae52" d="M32.951,9.205c-2.927,0-4.39,0.701-4.39,0.701C26.839,6.593,25.505,5,21.201,5 C13.453,5,11,10.67,11,12.327c0,0.577,1.076,1.083,3.659,1.083s5.854-0.701,5.854-0.701c-0.494,0.947-0.732,2.102-0.732,3.504 c0,3.504,2.195,6.307,5.122,6.307c4.39,0,6.585-4.905,6.585-4.905s5.122,5.606,6.93,5.606c1.722,0,2.582-2.484,2.582-5.798 C41,14.938,38.977,9.205,32.951,9.205z"></path><path fill="#4aae52" d="M28,11.742c-0.135,0-0.271-0.027-0.402-0.085c-0.505-0.223-0.735-0.813-0.513-1.318 c0.809-1.837,3.631-6.264,6.495-8.171c0.459-0.308,1.08-0.182,1.386,0.278c0.307,0.459,0.182,1.08-0.278,1.386 c-2.54,1.692-5.158,5.917-5.772,7.313C28.75,11.519,28.384,11.742,28,11.742z"></path><path fill="#fdc82e" d="M14.999,32c-0.503,0-0.937-0.38-0.993-0.892c-0.317-2.917,0.032-6.079,1.037-9.398 c0.16-0.529,0.719-0.829,1.247-0.667c0.529,0.16,0.828,0.718,0.667,1.247c-0.926,3.06-1.25,5.955-0.963,8.602 c0.06,0.55-0.337,1.043-0.886,1.103C15.071,31.998,15.035,32,14.999,32z"></path>
+        </svg> 
+        FL-Studio
+       </div>
+
+       <span class="status">
+        <span class="status-circle"></span>
+        utilisé par moments</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Composition musicale</button>
+          
+         </div>
+
+      </li>
+     </ul>
+    
+
+    </div>
+
+<!-- POP UP WINDOW -->
+
+       <!-- <span class="status">
+        <span class="status-circle"></span>
+        Update Available</span>
+       <div class="button-wrapper">
+        <button class="content-button status-button">Update this app</button>
+        <div class="pop-up">
+         <div class="pop-up__title">Update This App
+          <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+           <circle cx="12" cy="12" r="10" />
+           <path d="M15 9l-6 6M9 9l6 6" />
+          </svg>
+         </div>
+         <div class="pop-up__subtitle">Adjust your selections for advanced options as desired before continuing. <a href="#">Learn more</a></div>
+         <div class="checkbox-wrapper">
+          <input type="checkbox" id="check1" class="checkbox">
+          <label for="check1">Import previous settings and preferences</label>
+         </div>
+         <div class="checkbox-wrapper">
+          <input type="checkbox" id="check2" class="checkbox">
+          <label for="check2">Remove old versions</label>
+         </div>
+         <div class="content-button-wrapper">
+          <button class="content-button status-button open close">Cancel</button>
+          <button class="content-button status-button">Continue</button>
+         </div>
+        </div>
+        <div class="menu">
+         <button class="dropdown">
+          <ul>
+           <li><a href="#">Go to Discover</a></li>
+           <li><a href="#">Learn more</a></li>
+           <li><a href="#">Uninstall</a></li>
+          </ul>
+         </button>
+        </div>
+       </div> -->
+
+
+    
+    
+    
+    <div class="content-section">
+     <div class="content-section-title">Jeux récents</div>
+     
+     <!-- CARTES DE JEUX -->
+     
+     <div class="apps-card">
+      
+      <div class="app-card">
+       <span>
+        <svg viewBox="-15 -15 130 130">
+          <g xmlns="http://www.w3.org/2000/svg">
+            <path fill="#110b09" d="M 82.775,79.842 64.9,49.775 82.775,19.708 91.392,49.775 Z M 42.992,76.908 20.533,54.633 h 35.75 L 74.158,84.7 Z m 0,-54.358 31.075,-7.792 -17.875,30.067 H 20.442 Z M 88.642,0 48.033,10.542 41.983,20.9 29.792,20.808 0,49.775 29.792,78.742 41.983,78.65 48.033,89.008 88.642,99.642 99.55,60.133 93.408,49.867 99.55,39.6 Z m 92.216,29.242 c -5.408,0 -9.075,2.291 -11.825,6.508 h -0.183 v -5.408 h -9.533 v 39.783 h 9.716 v -22.55 c 0,-5.408 3.392,-9.167 8.067,-9.167 4.4,0 7.7,2.659 7.7,7.334 v 24.475 h 9.717 V 44.183 c 0.091,-8.708 -5.409,-14.941 -13.659,-14.941 z m -36.3,24.108 c 0,5.317 -3.025,8.983 -7.975,8.983 -4.491,0 -7.333,-2.566 -7.333,-7.241 v -24.75 h -9.717 v 26.583 c 0,8.708 4.95,14.392 13.842,14.392 5.592,0 8.708,-2.109 11.367,-5.775 h 0.275 v 4.675 h 9.35 V 30.342 H 144.65 V 53.35 Z m 55.184,-23.008 h 9.716 v 39.783 h -9.716 z m 0,-12.375 h 9.716 v 7.975 h -9.716 z m 64.808,12.375 -5.775,17.966 c -1.283,3.667 -2.292,8.709 -2.292,8.709 h -0.275 c 0,0 -1.283,-5.042 -2.566,-8.709 l -6.509,-17.966 h -10.45 l 10.725,28.325 c 2.292,6.05 3.025,8.616 3.025,10.816 0,3.3 -1.741,5.409 -5.866,5.409 h -3.759 v 8.341 h 6.234 c 8.066,0 10.908,-3.208 13.933,-12.008 L 275,30.433 H 264.55 Z M 227.608,58.483 V 37.4 h 6.234 v -6.967 h -6.234 V 17.967 h -9.716 v 12.375 h -5.5 v 6.966 h 5.5 v 23.375 c 0,7.517 5.683,9.534 10.816,9.534 4.217,0 5.317,-0.184 5.317,-0.184 v -7.7 h -2.475 c -2.292,0.092 -3.942,-0.916 -3.942,-3.85 z"/>
+          </g>
+        </svg>
+        Simon Says <br>
+       </span>
+       <div class="app-card__img"><br> <img src="simon.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+       <div class="app-card__subtext">Jeu de mémoire en 3D avec une séquence de couleurs et de sons <br> <span class="spanoff">Date de création : 2024</span></div>
+       <div class="app-card-buttons">
+        <button class="content-button"><a href="https://evanhumeau.itch.io/simonsays" target="_blank">Visiter la page itch.io</a></button>
+         
+       </div>
+      </div>
+
+      <div class="app-card">
+        <span>
+          <svg viewBox="-15 -15 130 130">
+            <g xmlns="http://www.w3.org/2000/svg">
+              <path fill="#110b09" d="M 82.775,79.842 64.9,49.775 82.775,19.708 91.392,49.775 Z M 42.992,76.908 20.533,54.633 h 35.75 L 74.158,84.7 Z m 0,-54.358 31.075,-7.792 -17.875,30.067 H 20.442 Z M 88.642,0 48.033,10.542 41.983,20.9 29.792,20.808 0,49.775 29.792,78.742 41.983,78.65 48.033,89.008 88.642,99.642 99.55,60.133 93.408,49.867 99.55,39.6 Z m 92.216,29.242 c -5.408,0 -9.075,2.291 -11.825,6.508 h -0.183 v -5.408 h -9.533 v 39.783 h 9.716 v -22.55 c 0,-5.408 3.392,-9.167 8.067,-9.167 4.4,0 7.7,2.659 7.7,7.334 v 24.475 h 9.717 V 44.183 c 0.091,-8.708 -5.409,-14.941 -13.659,-14.941 z m -36.3,24.108 c 0,5.317 -3.025,8.983 -7.975,8.983 -4.491,0 -7.333,-2.566 -7.333,-7.241 v -24.75 h -9.717 v 26.583 c 0,8.708 4.95,14.392 13.842,14.392 5.592,0 8.708,-2.109 11.367,-5.775 h 0.275 v 4.675 h 9.35 V 30.342 H 144.65 V 53.35 Z m 55.184,-23.008 h 9.716 v 39.783 h -9.716 z m 0,-12.375 h 9.716 v 7.975 h -9.716 z m 64.808,12.375 -5.775,17.966 c -1.283,3.667 -2.292,8.709 -2.292,8.709 h -0.275 c 0,0 -1.283,-5.042 -2.566,-8.709 l -6.509,-17.966 h -10.45 l 10.725,28.325 c 2.292,6.05 3.025,8.616 3.025,10.816 0,3.3 -1.741,5.409 -5.866,5.409 h -3.759 v 8.341 h 6.234 c 8.066,0 10.908,-3.208 13.933,-12.008 L 275,30.433 H 264.55 Z M 227.608,58.483 V 37.4 h 6.234 v -6.967 h -6.234 V 17.967 h -9.716 v 12.375 h -5.5 v 6.966 h 5.5 v 23.375 c 0,7.517 5.683,9.534 10.816,9.534 4.217,0 5.317,-0.184 5.317,-0.184 v -7.7 h -2.475 c -2.292,0.092 -3.942,-0.916 -3.942,-3.85 z"/>
+            </g>
+          </svg>
+         Panic Office <br>
+        </span>
+        <div class="app-card__img"><br> <img src="3D_Models.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Jeu en 3D de rapidité en vue à la première personne <br>  <span class="spanoff">Date de création : 2024</span></div>
+        <div class="app-card-buttons">
+          <button class="content-button"><a href="https://evanhumeau.itch.io/panic-office" target="_blank">Visiter la page itch.io</a></button>
+          
+        </div>
+       </div>
+
+       <div class="app-card">
+        <span>
+          <svg viewBox="-15 -15 130 130">
+            <g xmlns="http://www.w3.org/2000/svg">
+              <path fill="#110b09" d="M 82.775,79.842 64.9,49.775 82.775,19.708 91.392,49.775 Z M 42.992,76.908 20.533,54.633 h 35.75 L 74.158,84.7 Z m 0,-54.358 31.075,-7.792 -17.875,30.067 H 20.442 Z M 88.642,0 48.033,10.542 41.983,20.9 29.792,20.808 0,49.775 29.792,78.742 41.983,78.65 48.033,89.008 88.642,99.642 99.55,60.133 93.408,49.867 99.55,39.6 Z m 92.216,29.242 c -5.408,0 -9.075,2.291 -11.825,6.508 h -0.183 v -5.408 h -9.533 v 39.783 h 9.716 v -22.55 c 0,-5.408 3.392,-9.167 8.067,-9.167 4.4,0 7.7,2.659 7.7,7.334 v 24.475 h 9.717 V 44.183 c 0.091,-8.708 -5.409,-14.941 -13.659,-14.941 z m -36.3,24.108 c 0,5.317 -3.025,8.983 -7.975,8.983 -4.491,0 -7.333,-2.566 -7.333,-7.241 v -24.75 h -9.717 v 26.583 c 0,8.708 4.95,14.392 13.842,14.392 5.592,0 8.708,-2.109 11.367,-5.775 h 0.275 v 4.675 h 9.35 V 30.342 H 144.65 V 53.35 Z m 55.184,-23.008 h 9.716 v 39.783 h -9.716 z m 0,-12.375 h 9.716 v 7.975 h -9.716 z m 64.808,12.375 -5.775,17.966 c -1.283,3.667 -2.292,8.709 -2.292,8.709 h -0.275 c 0,0 -1.283,-5.042 -2.566,-8.709 l -6.509,-17.966 h -10.45 l 10.725,28.325 c 2.292,6.05 3.025,8.616 3.025,10.816 0,3.3 -1.741,5.409 -5.866,5.409 h -3.759 v 8.341 h 6.234 c 8.066,0 10.908,-3.208 13.933,-12.008 L 275,30.433 H 264.55 Z M 227.608,58.483 V 37.4 h 6.234 v -6.967 h -6.234 V 17.967 h -9.716 v 12.375 h -5.5 v 6.966 h 5.5 v 23.375 c 0,7.517 5.683,9.534 10.816,9.534 4.217,0 5.317,-0.184 5.317,-0.184 v -7.7 h -2.475 c -2.292,0.092 -3.942,-0.916 -3.942,-3.85 z"/>
+            </g>
+          </svg>
+         Amethyst <br>
+        </span>
+        <div class="app-card__img"><br> <img src="amethyst.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Jeu d'arcade en 2D, vue du dessus avec des vagues d'ennemis <br> <span class="spanoff">Date de création : 2023</span></div>
+        <div class="app-card-buttons">
+          <button class="content-button"><a href="https://evanhumeau.itch.io/amethyst" target="_blank">Visiter la page itch.io</a></button>
+          
+        </div>
+       </div>
+
+
+     </div>
+
+     <br>
+
+     <div class="apps-card">
+      
+      <div class="app-card">
+       <span>
+        <img src="bitsy.png" width="40" height="30" style="padding-right: 10px;"/>
+        SlimeQuest <br>
+       </span>
+       <div class="app-card__img"><br> <img src="SlimeQuest.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+       <div class="app-card__subtext">Jeu 8-bit en 2D, vue du dessus avec une légère trame narrative <br> <span class="spanoff">Date de création : 2023</span></div>
+       <div class="app-card-buttons">
+        <button class="content-button"><a href="https://evanhumeau.com/bienvenue_cher_joueur_joueuse__.html" target="_blank">Jouer au jeu</a></button>
+         
+       </div>
+      </div>
+
+      <div class="app-card">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+            <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
+            </svg>
+         Packem'Up <br>
+        </span>
+        <div class="app-card__img"><br> <img src="packemup.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Jeu en 2D de rapidité codé en TypeScript d'emballage de colis <br> <span class="spanoff">Date de création : 2023</span></div>
+        <div class="app-card-buttons">
+          <button class="content-button"><a href="PackemUp.zip">Télécharger le jeu</a></button>
+          
+        </div>
+       </div>
+
+       <!-- <div class="app-card">
+        <span>
+          <svg viewBox="0 0 512 512" style="border: 1px solid #a059a9">
+          <path xmlns="http://www.w3.org/2000/svg" d="M480 0H32C14.368 0 0 14.368 0 32v448c0 17.664 14.368 32 32 32h448c17.664 0 32-14.336 32-32V32c0-17.632-14.336-32-32-32z" fill="#210027" data-original="#7b1fa2" />
+           <g xmlns="http://www.w3.org/2000/svg">
+           <path d="M192 64h-80c-8.832 0-16 7.168-16 16v352c0 8.832 7.168 16 16 16s16-7.168 16-16V256h64c52.928 0 96-43.072 96-96s-43.072-96-96-96zm0 160h-64V96h64c35.296 0 64 28.704 64 64s-28.704 64-64 64zM400 256h-32c-18.08 0-34.592 6.24-48 16.384V272c0-8.864-7.168-16-16-16s-16 7.136-16 16v160c0 8.832 7.168 16 16 16s16-7.168 16-16v-96c0-26.464 21.536-48 48-48h32c8.832 0 16-7.168 16-16s-7.168-16-16-16z" fill="#f6e7fa" data-original="#e1bee7" />
+          </g> 
+         </svg> 
+         Panic Office <br>
+        </span>
+        <div class="app-card__img"><br> <img src="1.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Jeux en 3D en vue à la première personne <br> <span class="spanoff">Date de création : 2024</span></div>
+        <div class="app-card-buttons">
+         <button class="content-button"><a href="#">En savoir plus...</a></button>
+          
+        </div>
+       </div> -->
+
+
+
+
+
+     </div>
+
+
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="overlay-app"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

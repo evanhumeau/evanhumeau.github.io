@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+</head>
+<body>
+
+<div class="video-bg">
+ <video width="320" height="240" autoplay loop muted>
+  <source src="BouncingBG.mp4" type="video/mp4"> <!-- https://assets.codepen.io/3364143/7btrrd.mp4 -->
+Your browser does not support the video tag.
+</video>
+</div>
+<!-- <div class="dark-light">
+    <svg viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+     <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" /></svg>
+   </div> -->
+<div class="app">
+ 
+  <div class="wrapper"> 
+    <div class="left-side">
+   <div class="side-wrapper">
+    <div class="side-menu">
+     
+     <!-- LIENS SUR LA GAUCHE -->
+
+     <a href="#">
+      <svg viewBox="0 0 488.455 488.455" fill="currentColor">
+       <path d="M287.396 216.317c23.845 23.845 23.845 62.505 0 86.35s-62.505 23.845-86.35 0-23.845-62.505 0-86.35 62.505-23.845 86.35 0" />
+       <path d="M427.397 91.581H385.21l-30.544-61.059H133.76l-30.515 61.089-42.127.075C27.533 91.746.193 119.115.164 152.715L0 396.86c0 33.675 27.384 61.074 61.059 61.074h366.338c33.675 0 61.059-27.384 61.059-61.059V152.639c-.001-33.674-27.385-61.058-61.059-61.058zM244.22 381.61c-67.335 0-122.118-54.783-122.118-122.118s54.783-122.118 122.118-122.118 122.118 54.783 122.118 122.118S311.555 381.61 244.22 381.61z" />
+      </svg>
+     </a> 
+     <a href="video.html">
+      <svg viewBox="0 0 58 58" fill="currentColor">
+       <path d="M57 6H1a1 1 0 00-1 1v44a1 1 0 001 1h56a1 1 0 001-1V7a1 1 0 00-1-1zM10 50H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2v-9h8v9zm0-11H2V8h8v9zm26.537 12.844l-11 7a1.007 1.007 0 01-1.018.033A1.001 1.001 0 0124 36V22a1.001 1.001 0 011.538-.844l11 7a1.003 1.003 0 01-.001 1.688zM56 50h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8v-9h8v9zm0-11h-8V8h8v9z" />
+      </svg>
+     </a>
+     <a href="#">
+      <svg viewBox="0 0 512 512" fill="currentColor">
+       <path d="M499.377 46.402c-8.014-8.006-18.662-12.485-29.985-12.613a41.13 41.13 0 00-.496-.003c-11.142 0-21.698 4.229-29.771 11.945L198.872 275.458c25.716 6.555 47.683 23.057 62.044 47.196a113.544 113.544 0 0110.453 23.179L500.06 106.661C507.759 98.604 512 88.031 512 76.89c0-11.507-4.478-22.33-12.623-30.488zM176.588 302.344a86.035 86.035 0 00-3.626-.076c-20.273 0-40.381 7.05-56.784 18.851-19.772 14.225-27.656 34.656-42.174 53.27C55.8 397.728 27.795 409.14 0 416.923c16.187 42.781 76.32 60.297 115.752 61.24 1.416.034 2.839.051 4.273.051 44.646 0 97.233-16.594 118.755-60.522 23.628-48.224-5.496-112.975-62.192-115.348z" />
+      </svg>
+     </a>
+     
+    </div>
+   </div>
+ 
+  </div> 
+
+
+  <!-- LIENS DU HAUT -->
+
+  <div class="main-container">
+   <div class="main-header">
+    <a class="menu-link-main" href="index.html">Foks</a>
+    <div class="header-menu">
+     <a class="main-header-link" href="index.html">Accueil</a> <!-- Mettre des choses à propos de moi dedans (courte phrase à propos de mes études, passions et contact) -->
+     <a class="main-header-link" href="jeu.html">Jeux vidéo</a>
+     <a class="main-header-link is-active" href="web.html">Sites Web</a>
+     <a class="main-header-link" href="modelisation.html">Modélisation 3D</a>
+
+    </div>
+   </div>
+   
+   
+   <div class="content-wrapper">
+    
+    <!-- CATEGORIES PRINCIPALES -->
+
+    <div class="content-section">
+      <div class="content-section-title">Langages utilisés</div> 
+
+     <ul>
+
+      <li class="adobe-product">
+        <div class="products">
+         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+           <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+           </svg>
+         JavaScript
+        </div>
+ 
+        <span class="status">
+         <span class="status-circle green"></span>
+         utilisé fréquemment</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">Dynamisation d'une page</button>
+           
+          </div>
+ 
+       </li>
+ 
+ 
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+          <rect width="36" height="36" x="6" y="6" fill="#1976d2"></rect><polygon fill="#fff" points="27.49,22 14.227,22 14.227,25.264 18.984,25.264 18.984,40 22.753,40 22.753,25.264 27.49,25.264"></polygon><path fill="#fff" d="M39.194,26.084c0,0-1.787-1.192-3.807-1.192s-2.747,0.96-2.747,1.986 c0,2.648,7.381,2.383,7.381,7.712c0,8.209-11.254,4.568-11.254,4.568V35.22c0,0,2.152,1.622,4.733,1.622s2.483-1.688,2.483-1.92 c0-2.449-7.315-2.449-7.315-7.878c0-7.381,10.658-4.469,10.658-4.469L39.194,26.084z"></path>
+          </svg>
+        TypeScript
+       </div>
+
+       <span class="status">
+        <span class="status-circle"></span>
+        utilisé par moments</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Dynamisation d'une page</button>
+          
+         </div>
+
+      </li>
+      
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0,0,256,256">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M28.1875,-0.00391c2.75,6.36328 -9.86719,10.29297 -11.03516,15.59766c-1.07812,4.86719 7.48828,10.52734 7.49219,10.52734c-1.30078,-2.01562 -2.24219,-3.67969 -3.54687,-6.81641c-2.20703,-5.30469 13.43359,-10.10156 7.08984,-19.30859zM36.55078,8.8125c0,0 -11.04687,0.69922 -11.60937,7.76953c-0.25,3.14844 2.90234,4.82813 2.99609,7.12109c0.07031,1.86719 -1.88672,3.42578 -1.88672,3.42578c0,0 3.55078,-0.66797 4.66406,-3.52344c1.23047,-3.16797 -2.38672,-5.33203 -2.02344,-7.86719c0.35156,-2.42578 7.85938,-6.92578 7.85938,-6.92578zM39.23047,25.14453c-1.15625,-0.05078 -2.44141,0.33203 -3.60547,1.16797c2.28125,-0.48828 4.21094,0.90625 4.21094,2.51563c0,3.625 -5.23828,7.05078 -5.23828,7.05078c0,0 8.10938,-0.92578 8.10938,-6.87891c0,-2.46094 -1.55469,-3.76562 -3.47656,-3.85547zM19.18359,25.15234c0,0 -10.12109,-0.13672 -10.12109,2.72656c0,2.99219 13.25391,3.20313 22.71875,1.35938c0,0 2.52734,-1.73047 3.19922,-2.375c-6.20312,1.26563 -20.35937,1.43359 -20.35937,0.33984c0,-1.01172 4.5625,-2.05078 4.5625,-2.05078zM16.73828,30.72266c-1.55078,0 -3.86719,1.19922 -3.86719,2.35547c0,2.32422 11.69141,4.11719 20.34766,0.71875l-2.99609,-1.83594c-5.86719,1.87891 -16.68359,1.27734 -13.48437,-1.23828zM18.17969,35.92188c-2.12891,0 -3.50781,1.3125 -3.50781,2.28125c0,2.98438 12.70703,3.28516 17.74219,0.25l-3.19922,-2.03516c-3.76172,1.58984 -13.20703,1.80469 -11.03516,-0.49609zM11.08984,38.625c-3.46875,-0.07031 -5.72266,1.48828 -5.72266,2.78125c-0.00391,6.875 35.52344,6.54297 35.52344,-0.48437c0,-1.16406 -1.375,-1.71875 -1.87109,-1.98437c2.90234,6.71875 -29.05078,6.19922 -29.05078,2.23438c0,-0.90234 2.34375,-1.78906 4.52344,-1.36328l-1.84766,-1.05078c-0.54297,-0.08203 -1.0625,-0.125 -1.55469,-0.13281zM44.63672,43.25c-5.40234,5.11719 -19.08984,6.98438 -32.85547,3.82422c13.76172,5.62891 32.78516,2.46094 32.85547,-3.82422z"></path></g></g>
+          </svg>
+        Java
+       </div>
+
+       <span class="status">
+        <span class="status-circle"></span>
+        utilisé par moments</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Dev Web</button>
+          
+         </div>
+
+      </li>
+
+
+
+      <li class="adobe-product">
+        <div class="products">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M24.072,4.072c-11.046,0 -20,8.954 -20,20c0,11.046 8.954,20 20,20c11.046,0 20,-8.954 20,-20c0,-11.046 -8.954,-20 -20,-20zM35.416,15.322c-0.971,0.034 -1.673,-0.538 -1.673,-1.408c0,-0.723 0.453,-1.191 0.448,-1.374c-0.019,-0.547 -0.86,-0.569 -1.089,-0.557c-3.15,0.101 -3.877,4.096 -4.549,7.505l-0.262,1.424c1.814,0.262 3.102,-0.06 3.821,-0.52c1.012,-0.647 -0.14,-1.193 -0.119,-1.948c0.026,-0.951 0.888,-1.399 1.438,-1.415c0.77,-0.018 1.566,0.816 1.566,1.897c0,1.321 -2.133,3.22 -5.69,3.144c-0.434,-0.01 -0.831,-0.04 -1.205,-0.083l-0.706,3.803c-0.601,2.766 -1.4,6.546 -4.256,9.844c-2.453,2.876 -4.943,3.324 -6.059,3.36c-2.086,0.071 -3.992,-1.212 -4.041,-2.675c-0.048,-1.419 1.161,-2.351 1.997,-2.351c1.221,0 1.928,0.888 1.959,1.807c0.028,0.775 -0.383,1.017 -0.654,1.163c-0.182,0.144 -0.456,0.29 -0.446,0.61c0.007,0.137 0.156,0.451 0.619,0.436c0.882,-0.03 1.775,-0.254 2.446,-0.737c2.032,-1.67 2.782,-4.403 3.807,-9.701l0.215,-1.283c0.349,-1.724 0.9,-4.08 1.491,-5.993c-1.433,-1.064 -2.26,-2.337 -4.187,-2.852c-1.321,-0.353 -1.918,-0.24 -2.484,0.466c-0.301,0.375 -0.405,0.801 -0.405,1.215c0,1.59 3.099,4.722 3.099,6.62c0,0.224 -0.026,0.454 -0.068,0.694c-0.428,2.498 -3.446,4.415 -7.014,3.333c-3.045,-0.927 -3.713,-3.079 -3.346,-4.252c0.322,-1.03 1.291,-1.377 2.104,-1.132c0.87,0.265 1.25,1.368 0.921,2.29c-0.03,0.083 -0.042,0.114 -0.134,0.306c-0.101,0.22 -0.288,0.414 -0.369,0.672c-0.197,0.628 0.678,1.074 1.287,1.26c1.363,0.414 2.691,-0.289 3.03,-1.376c0.312,-0.999 -0.14,-1.696 -0.407,-1.964c0,0 -2.527,-3.272 -2.527,-5.082c0,-0.395 0.037,-0.808 0.169,-1.23c0.245,-0.781 0.758,-1.612 1.505,-2.162c1.575,-1.158 3.132,-1.302 4.764,-0.84c2.11,0.6 3.093,1.93 4.408,2.993c0.736,-2.128 1.539,-3.637 3.074,-5.394c1.384,-1.603 3.247,-2.762 5.378,-2.836c2.13,-0.068 3.676,0.892 3.73,2.4c0.023,0.643 -0.287,1.881 -1.586,1.923z"></path></g></g>
+            </svg>
+         Symfony
+        </div>
+ 
+        <span class="status">
+          <span class="status-circle"></span>
+          utilisé par moments</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">Back End avancé</button>
+           
+          </div>
+ 
+       </li>
+
+
+       <li class="adobe-product">
+        <div class="products">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 30 30">
+            <path fill="#dcd5f2" d="M15,22.5c-7.995,0-14.5-3.364-14.5-7.5S7.005,7.5,15,7.5s14.5,3.364,14.5,7.5S22.995,22.5,15,22.5z"></path><path fill="#8b75a1" d="M15,8c7.589,0,14,3.206,14,7s-6.411,7-14,7S1,18.794,1,15S7.411,8,15,8 M15,7C6.716,7,0,10.582,0,15 s6.716,8,15,8s15-3.582,15-8S23.284,7,15,7L15,7z"></path><path fill="#36404d" d="M9.417 13c.598 0 1.116.203 1.384.543.192.244.245.555.157.927C10.69 15.599 10.216 16 8.089 16H6.58l.563-3H9.417M9.417 12H6.313L5 19h1l.396-2h1.693c2.199 0 3.395-.417 3.842-2.299C12.316 13.084 11.039 12 9.417 12L9.417 12zM22.417 13c.598 0 1.116.203 1.384.543.192.244.245.555.157.927C23.69 15.599 23.216 16 21.089 16H19.58l.563-3H22.417M22.417 12h-3.104L18 19h1l.396-2h1.693c2.199 0 3.395-.417 3.842-2.299C25.316 13.084 24.039 12 22.417 12L22.417 12z"></path><g><path fill="#36404d" d="M17.652,12.424C17.323,12.122,16.742,12,15.875,12h-1.848l0.451-2h-1.017L12,17h1.016l0.841-4h0.171 h1.848c0.91,0,1.094,0.155,1.096,0.155c0.019,0.03,0.058,0.194-0.008,0.532L16.288,17h1.046l0.61-3.121 C18.075,13.212,17.976,12.722,17.652,12.424z"></path></g>
+            </svg>
+         Php
+        </div>
+ 
+        <span class="status">
+          <span class="status-circle"></span>
+          utilisé par moments</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">Back End</button>
+           
+          </div>
+ 
+       </li>
+
+
+       <li class="adobe-product">
+        <div class="products">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0,0,256,256">
+            <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M12.13867,7c-2.511,0 -4.36816,2.25708 -4.28516,4.70508c0.08,2.351 -0.02448,5.39786 -0.77148,7.88086c-0.748,2.491 -2.01403,4.06558 -4.08203,4.26758v2.29297c2.068,0.202 3.33403,1.77658 4.08203,4.26758c0.747,2.483 0.85048,5.52986 0.77148,7.88086c-0.083,2.448 1.77416,4.70508 4.28516,4.70508h25.72656c2.511,0 4.36816,-2.25708 4.28516,-4.70508c-0.08,-2.351 0.02353,-5.39786 0.76953,-7.88086c0.749,-2.491 2.01208,-4.06558 4.08008,-4.26758v-2.29297c-2.068,-0.202 -3.33108,-1.77658 -4.08008,-4.26758c-0.747,-2.483 -0.84953,-5.52986 -0.76953,-7.88086c0.082,-2.448 -1.77611,-4.70508 -4.28711,-4.70508zM12.13867,9h25.72461c0.733,0 1.24206,0.36583 1.53906,0.67383c0.5,0.517 0.77305,1.23289 0.74805,1.96289c-0.079,2.33 0.00451,5.69944 0.85352,8.52344c0.78,2.596 2.0073,4.04984 3.2793,4.83984c-1.271,0.79 -2.4983,2.24484 -3.2793,4.83984c-0.849,2.824 -0.93252,6.19344 -0.85352,8.52344c0.025,0.73 -0.24805,1.44489 -0.74805,1.96289c-0.297,0.308 -0.80606,0.67383 -1.53906,0.67383h-25.72461c-0.733,0 -1.24011,-0.36583 -1.53711,-0.67383c-0.5,-0.517 -0.77305,-1.23289 -0.74805,-1.96289c0.079,-2.33 -0.00647,-5.69944 -0.85547,-8.52344c-0.78,-2.595 -2.0073,-4.04984 -3.2793,-4.83984c1.272,-0.79 2.4993,-2.24484 3.2793,-4.83984c0.849,-2.824 0.93447,-6.19344 0.85547,-8.52344c-0.025,-0.73 0.24805,-1.44589 0.74805,-1.96289c0.297,-0.308 0.80411,-0.67383 1.53711,-0.67383zM17.86719,15.63281v18.73242h7.70898c2.003,0 3.66659,-0.48806 4.80859,-1.41406c1.144,-0.927 1.74805,-2.27539 1.74805,-3.90039c0,-2.454 -1.74475,-4.29861 -4.34375,-4.59961v-0.0293c1.911,-0.33 3.40234,-2.12075 3.40234,-4.09375c0,-1.395 -0.53578,-2.57602 -1.55078,-3.41602c-1.011,-0.837 -2.43147,-1.2793 -4.10547,-1.2793zM20.91992,18.08398h3.90234c2.141,0 3.32031,0.93853 3.32031,2.64453c-0.001,1.831 -1.40136,2.83984 -3.94336,2.83984h-3.2793zM20.91992,25.86328h3.875c2.8,0 4.2207,1.01281 4.2207,3.00781c0,1.993 -1.40083,3.04688 -4.04883,3.04688h-4.04687z"></path></g></g>
+            </svg>
+         Bootstrap
+        </div>
+ 
+        <span class="status">
+          <span class="status-circle"></span>
+          utilisé par moments</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">template / responsive</button>
+           
+          </div>
+ 
+       </li>
+
+
+       <li class="adobe-product">
+        <div class="products">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+            <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+            </svg>
+         ThreeJs
+        </div>
+ 
+        <span class="status">
+          <span class="status-circle"></span>
+          utilisé par moments</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">Affichage 3D Web</button>
+           
+          </div>
+ 
+       </li>
+
+
+       <li class="adobe-product">
+        <div class="products">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+            <path fill="#ffd600" d="M6,42V6h36v36H6z"></path><path fill="#000001" d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"></path>
+            </svg>
+         ReactJs
+        </div>
+ 
+        <span class="status">
+          <span class="status-circle"></span>
+          utilisé par moments</span>
+         <div class="button-wrapper">
+           <button class="content-button status-button open">Front End</button>
+           
+          </div>
+ 
+       </li>
+
+     </ul>
+    
+
+    </div>
+
+<!-- POP UP WINDOW -->
+
+       <!-- <span class="status">
+        <span class="status-circle"></span>
+        Update Available</span>
+       <div class="button-wrapper">
+        <button class="content-button status-button">Update this app</button>
+        <div class="pop-up">
+         <div class="pop-up__title">Update This App
+          <svg class="close" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x-circle">
+           <circle cx="12" cy="12" r="10" />
+           <path d="M15 9l-6 6M9 9l6 6" />
+          </svg>
+         </div>
+         <div class="pop-up__subtitle">Adjust your selections for advanced options as desired before continuing. <a href="#">Learn more</a></div>
+         <div class="checkbox-wrapper">
+          <input type="checkbox" id="check1" class="checkbox">
+          <label for="check1">Import previous settings and preferences</label>
+         </div>
+         <div class="checkbox-wrapper">
+          <input type="checkbox" id="check2" class="checkbox">
+          <label for="check2">Remove old versions</label>
+         </div>
+         <div class="content-button-wrapper">
+          <button class="content-button status-button open close">Cancel</button>
+          <button class="content-button status-button">Continue</button>
+         </div>
+        </div>
+        <div class="menu">
+         <button class="dropdown">
+          <ul>
+           <li><a href="#">Go to Discover</a></li>
+           <li><a href="#">Learn more</a></li>
+           <li><a href="#">Uninstall</a></li>
+          </ul>
+         </button>
+        </div>
+       </div> -->
+
+
+    
+    
+    
+    <div class="content-section">
+     
+
+ <!-- CARTES DE JEUX -->
+
+      <div class="content-section-title">Vitrine sites</div>
+     
+    
+     
+     <div class="apps-card">
+      
+      <div class="app-card">
+       <span>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="25" viewBox="0,0,256,256">
+          <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M24.072,4.072c-11.046,0 -20,8.954 -20,20c0,11.046 8.954,20 20,20c11.046,0 20,-8.954 20,-20c0,-11.046 -8.954,-20 -20,-20zM35.416,15.322c-0.971,0.034 -1.673,-0.538 -1.673,-1.408c0,-0.723 0.453,-1.191 0.448,-1.374c-0.019,-0.547 -0.86,-0.569 -1.089,-0.557c-3.15,0.101 -3.877,4.096 -4.549,7.505l-0.262,1.424c1.814,0.262 3.102,-0.06 3.821,-0.52c1.012,-0.647 -0.14,-1.193 -0.119,-1.948c0.026,-0.951 0.888,-1.399 1.438,-1.415c0.77,-0.018 1.566,0.816 1.566,1.897c0,1.321 -2.133,3.22 -5.69,3.144c-0.434,-0.01 -0.831,-0.04 -1.205,-0.083l-0.706,3.803c-0.601,2.766 -1.4,6.546 -4.256,9.844c-2.453,2.876 -4.943,3.324 -6.059,3.36c-2.086,0.071 -3.992,-1.212 -4.041,-2.675c-0.048,-1.419 1.161,-2.351 1.997,-2.351c1.221,0 1.928,0.888 1.959,1.807c0.028,0.775 -0.383,1.017 -0.654,1.163c-0.182,0.144 -0.456,0.29 -0.446,0.61c0.007,0.137 0.156,0.451 0.619,0.436c0.882,-0.03 1.775,-0.254 2.446,-0.737c2.032,-1.67 2.782,-4.403 3.807,-9.701l0.215,-1.283c0.349,-1.724 0.9,-4.08 1.491,-5.993c-1.433,-1.064 -2.26,-2.337 -4.187,-2.852c-1.321,-0.353 -1.918,-0.24 -2.484,0.466c-0.301,0.375 -0.405,0.801 -0.405,1.215c0,1.59 3.099,4.722 3.099,6.62c0,0.224 -0.026,0.454 -0.068,0.694c-0.428,2.498 -3.446,4.415 -7.014,3.333c-3.045,-0.927 -3.713,-3.079 -3.346,-4.252c0.322,-1.03 1.291,-1.377 2.104,-1.132c0.87,0.265 1.25,1.368 0.921,2.29c-0.03,0.083 -0.042,0.114 -0.134,0.306c-0.101,0.22 -0.288,0.414 -0.369,0.672c-0.197,0.628 0.678,1.074 1.287,1.26c1.363,0.414 2.691,-0.289 3.03,-1.376c0.312,-0.999 -0.14,-1.696 -0.407,-1.964c0,0 -2.527,-3.272 -2.527,-5.082c0,-0.395 0.037,-0.808 0.169,-1.23c0.245,-0.781 0.758,-1.612 1.505,-2.162c1.575,-1.158 3.132,-1.302 4.764,-0.84c2.11,0.6 3.093,1.93 4.408,2.993c0.736,-2.128 1.539,-3.637 3.074,-5.394c1.384,-1.603 3.247,-2.762 5.378,-2.836c2.13,-0.068 3.676,0.892 3.73,2.4c0.023,0.643 -0.287,1.881 -1.586,1.923z"></path></g></g>
+          </svg>
+        CRUD Assets 3D <br>
+       </span>
+       <div class="app-card__img"><br> <img src="crud.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+       <div class="app-card__subtext">Application utilisant Symfony et ReactJS pour faire un CRUD avec une bdd mysql <br> <span class="spanoff">Date de création : 2024</span></div>
+       <!-- <div class="app-card-buttons">
+        <button class="content-button"><a href="#">En savoir plus...</a></button>
+         
+       </div> -->
+      </div>
+
+      <div class="app-card">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="25" viewBox="0 0 48 48">
+            <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z"></path><path fill="#FF6D00" d="M24 8L24 39.9 35.2 36.7 37.7 8z"></path><path fill="#FFF" d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"></path><path fill="#EEE" d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"></path>
+            </svg>
+         Ancien site Portfolio <br>
+        </span>
+        <div class="app-card__img"><br> <img src="site1.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Jeu en 3D de rapidité en vue à la première personne <br>  <span class="spanoff">Date de création : 2023</span></div>
+        <!-- <div class="app-card-buttons">
+          <button class="content-button"><a href="#">En savoir plus...</a></button>
+          
+        </div> -->
+       </div>
+
+       <div class="app-card">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="25" viewBox="0 0 50 50">
+            <path d="M 19.439453 14 C 8.6994531 14 2.3684758e-15 18.92 0 25 C 0 31.07 8.6994531 36 19.439453 36 C 26.419453 36 32.530938 33.799922 35.960938 30.669922 C 32.830937 32.539922 28.140391 33.599609 22.900391 33.599609 C 13.470391 33.599609 5.8300781 29.75 5.8300781 25 C 5.8300781 23.561756 6.5408111 22.208905 7.7792969 21.017578 L 10.089844 29.810547 L 11.679688 29.810547 L 13.917969 21.855469 L 16.130859 29.810547 L 17.724609 29.810547 L 20.478516 19.683594 L 18.685547 19.683594 L 16.892578 27.453125 L 14.726562 19.683594 L 13.082031 19.683594 L 10.921875 27.453125 L 9.1738281 19.902344 C 12.2821 17.781579 17.264272 16.400391 22.900391 16.400391 C 28.160391 16.400391 32.87 17.479375 36 19.359375 C 32.58 16.209375 26.449453 14 19.439453 14 z M 8.1738281 18.193359 C 5.4498281 20.022359 3.8300781 22.386 3.8300781 25 C 3.8300781 27.614 5.4508281 29.977641 8.1738281 31.806641 C 4.4218281 30.141641 2 27.685 2 25 C 2 22.315 4.4218281 19.858359 8.1738281 18.193359 z M 38.089844 20.220703 C 37.376844 20.220703 36.737922 20.347609 36.169922 20.599609 C 35.601922 20.852609 35.122422 21.200531 34.732422 21.644531 C 34.342422 22.088531 34.043937 22.609078 33.835938 23.205078 C 33.627937 23.802078 33.523438 24.450484 33.523438 25.146484 C 33.523438 25.825484 33.629891 26.458875 33.837891 27.046875 C 34.045891 27.634875 34.343375 28.147031 34.734375 28.582031 C 35.125375 29.018031 35.604828 29.359422 36.173828 29.607422 C 36.742828 29.855422 37.383703 29.980469 38.095703 29.980469 C 38.546703 29.980469 38.992547 29.886219 39.435547 29.699219 C 39.878547 29.512219 40.282438 29.184844 40.648438 28.714844 L 40.857422 29.769531 L 42.154297 29.769531 L 42.154297 24.736328 L 38.253906 24.736328 L 38.253906 26.267578 L 40.310547 26.267578 C 40.249547 26.917578 40.034062 27.415813 39.664062 27.757812 C 39.294062 28.100812 38.77175 28.271484 38.09375 28.271484 C 37.63275 28.271484 37.240922 28.182906 36.919922 28.003906 C 36.598922 27.824906 36.338672 27.587016 36.138672 27.291016 C 35.938672 26.995016 35.792172 26.662969 35.701172 26.292969 C 35.610172 25.922969 35.564453 25.540437 35.564453 25.148438 C 35.564453 24.739437 35.610172 24.343937 35.701172 23.960938 C 35.792172 23.576938 35.936719 23.236547 36.136719 22.935547 C 36.335719 22.635547 36.596969 22.395797 36.917969 22.216797 C 37.238969 22.037797 37.629844 21.949219 38.089844 21.949219 C 38.583844 21.949219 39.005516 22.078844 39.353516 22.339844 C 39.700516 22.600844 39.934641 22.992672 40.056641 23.513672 L 42.009766 23.513672 C 41.957766 22.983672 41.812125 22.512516 41.578125 22.103516 C 41.344125 21.694516 41.0475 21.351266 40.6875 21.072266 C 40.3275 20.793266 39.923563 20.5815 39.476562 20.4375 C 39.029563 20.2935 38.566844 20.220703 38.089844 20.220703 z M 43.429688 20.455078 L 43.429688 29.763672 L 50 29.763672 L 50 28.035156 L 45.46875 28.035156 L 45.46875 20.455078 L 43.429688 20.455078 z M 26.496094 20.607422 L 26.496094 29.810547 L 27.748047 29.810547 L 27.748047 29.185547 C 27.858047 29.329547 27.998547 29.481234 28.185547 29.615234 C 28.542547 29.871234 28.982141 30 29.494141 30 C 30.044141 30 30.534172 29.876766 30.951172 29.634766 C 31.323172 29.418766 31.639672 29.108938 31.888672 28.710938 C 32.106672 28.363937 32.271859 27.953141 32.380859 27.494141 C 32.474859 27.097141 32.523438 26.663281 32.523438 26.238281 C 32.522438 25.768281 32.459031 25.325922 32.332031 24.919922 C 32.204031 24.510922 32.014484 24.149656 31.771484 23.847656 C 31.519484 23.535656 31.215234 23.293953 30.865234 23.126953 C 30.499234 22.952953 30.089484 22.863281 29.646484 22.863281 L 29.644531 22.863281 C 29.235531 22.870281 28.862156 22.959906 28.535156 23.128906 C 28.265156 23.268906 28.0225 23.464844 27.8125 23.714844 L 27.8125 20.607422 L 26.496094 20.607422 z M 22.736328 22.861328 C 22.192328 22.861328 21.702297 22.959297 21.279297 23.154297 C 20.878297 23.339297 20.537672 23.611891 20.263672 23.962891 C 19.756672 24.612891 19.488281 25.529328 19.488281 26.611328 C 19.488281 27.093328 19.556406 27.544125 19.691406 27.953125 C 19.826406 28.365125 20.026156 28.728297 20.285156 29.029297 C 20.829156 29.662297 21.604344 29.996094 22.527344 29.996094 C 23.012344 29.996094 23.409281 29.945797 23.738281 29.841797 C 24.026281 29.750797 24.216047 29.633297 24.373047 29.529297 C 24.575047 29.396297 24.761781 29.232969 24.925781 29.042969 C 25.064781 28.881969 25.188922 28.701813 25.294922 28.507812 C 25.483922 28.160812 25.574703 27.836063 25.595703 27.664062 L 25.609375 27.550781 L 24.287109 27.550781 L 24.28125 27.644531 C 24.24825 28.074531 23.684641 28.841797 22.681641 28.841797 C 21.246641 28.841797 20.904812 27.803672 20.882812 26.888672 L 25.685547 26.888672 L 25.685547 26.785156 C 25.685547 26.195156 25.624859 25.657547 25.505859 25.185547 C 25.382859 24.701547 25.198031 24.284312 24.957031 23.945312 C 24.708031 23.594313 24.39725 23.324578 24.03125 23.142578 C 23.65525 22.955578 23.219328 22.861328 22.736328 22.861328 z M 22.585938 24.054688 C 23.649938 24.054688 24.218266 24.627641 24.322266 25.806641 L 20.882812 25.806641 C 20.932812 24.847641 21.692938 24.054688 22.585938 24.054688 z M 29.443359 24.058594 C 30.156359 24.058594 30.632391 24.337109 30.900391 24.912109 C 31.120391 25.388109 31.150391 25.965062 31.150391 26.414062 C 31.150391 27.137062 31.005469 27.741063 30.730469 28.164062 C 30.438469 28.615063 30.01275 28.84375 29.46875 28.84375 C 28.68175 28.84375 27.761719 28.292281 27.761719 26.738281 C 27.761719 25.994281 27.853969 25.422281 28.042969 24.988281 C 28.315969 24.362281 28.773359 24.058594 29.443359 24.058594 z"></path>
+        </svg>
+         Visionneuse 3D <br>
+        </span>
+        <div class="app-card__img"><br> <img src="webgl.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Site WebGL d'affichage d'assets 3D sur navigateur<br> <span class="spanoff">Date de création : 2023</span></div>
+        <!-- <div class="app-card-buttons">
+          <button class="content-button"><a href="#">En savoir plus...</a></button>
+          
+        </div> -->
+       </div>
+
+
+     </div>
+
+
+
+
+
+     <div class="content-section">
+      <div class="content-section-title">Logiciel de prototypage</div> 
+
+     <ul>
+
+      <li class="adobe-product">
+       <div class="products">
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="30" viewBox="0 0 48 48">
+          <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+          </svg>
+        Figma
+       </div>
+
+       <span class="status">
+        <span class="status-circle green"></span>
+        utilisé fréquemment</span>
+        <div class="button-wrapper">
+          <button class="content-button status-button open">Logiciel en ligne de prototypage</button>
+          
+         </div>
+
+      </li>
+      
+
+      
+
+     </ul>
+    
+
+    </div>
+
+    <br>
+
+    <div class="content-section-title">Vitrine prototypes</div>
+     
+    
+     
+     <div class="apps-card">
+      
+      <div class="app-card">
+        <span>
+         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="25" viewBox="0 0 48 48">
+           <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+           </svg>
+         Rugby World Cup 2027 <br>
+        </span>
+        <div class="app-card__img"><br> <img src="fig3.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Site web refonte du site web de la Rugby World Cup de 2027 <br> <span class="spanoff">Date de création : 2024</span></div>
+        <div class="app-card-buttons">
+         <button class="content-button"><a href="https://www.figma.com/file/VvGl1FjEfHfGG4YsU8OEIc/RWC-mobile-first-wireframe?type=design&mode=design&t=JEAgSVRgRr21kAq6-1" target="_blank">Voir le prototype</a></button>
+          
+        </div>
+       </div>
+
+
+      <div class="app-card">
+       <span>
+        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="25" viewBox="0 0 48 48">
+          <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+          </svg>
+        House of Westeros <br>
+       </span>
+       <div class="app-card__img"><br> <img src="fig1.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+       <div class="app-card__subtext">Site web pour un escape game sur le thème de Game of Thrones <br> <span class="spanoff">Date de création : 2023</span></div>
+       <div class="app-card-buttons">
+        <button class="content-button"><a href="https://www.figma.com/file/EuynAYrePfIXY1FdUfWJk4/Site-sur-t%C3%A9l%C3%A9phone?type=design&node-id=0%3A1&mode=design&t=JEAgSVRgRr21kAq6-1" target="_blank">Voir le prototype</a></button>
+         
+       </div>
+      </div>
+
+      <div class="app-card">
+        <span>
+         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="25" viewBox="0 0 48 48">
+           <path fill="#e64a19" d="M26,17h-8c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h8V17z"></path><path fill="#7c4dff" d="M25,31h-7c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7V31z"></path><path fill="#66bb6a" d="M18,45L18,45c-3.866,0-7-3.134-7-7v0c0-3.866,3.134-7,7-7h7v7C25,41.866,21.866,45,18,45z"></path><path fill="#ff7043" d="M32,17h-7V3h7c3.866,0,7,3.134,7,7v0C39,13.866,35.866,17,32,17z"></path><circle cx="32" cy="24" r="7" fill="#29b6f6"></circle>
+           </svg>
+         Lardy Goodies <br>
+        </span>
+        <div class="app-card__img"><br> <img src="fig2.png" height="280px" width="360px" style="border: 1px solid #000; border-radius: 5%;"/></div>
+        <div class="app-card__subtext">Site web de vente de produit dérivés en ligne <br> <span class="spanoff">Date de création : 2023</span></div>
+        <div class="app-card-buttons">
+         <button class="content-button"><a href="https://www.figma.com/file/NulvKLR6QAIvrEsYZsxiXX/Untitled?type=design&mode=design&t=JEAgSVRgRr21kAq6-1" target="_blank">Voir le prototype</a></button>
+          
+        </div>
+       </div>
+
+
+
+     </div>
+
+
+     
+
+
+
+
+
+    </div>
+   </div>
+  </div>
+ </div>
+ <div class="overlay-app"></div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
