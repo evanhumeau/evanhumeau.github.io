@@ -1,3 +1,34 @@
 body {
 	background-image: url("bg_img.png");
 }
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.logo a img {
+	margin-top: 10px;
+	width: 88px;
+	height: 73px;
+}
+
+.container {
+	padding: min(5em, 8%);
+	width: 400px;
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 2em;
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.page-space {
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+
