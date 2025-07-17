@@ -1,5 +1,10 @@
 body {
 	background-image: url("bg_img.png");
+
+}
+
+p {
+	font-size: 12px;
 }
 
 .logo {
@@ -9,26 +14,66 @@ body {
 
 .logo a img {
 	margin-top: 10px;
+	margin-bottom: 10px;
 	width: 88px;
 	height: 73px;
 }
 
-.container {
-	padding: min(5em, 8%);
-	width: 400px;
-	background-color: white;
-	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
-	border-radius: 2em;
+.container-header {
+	padding-inline: 20px;
+	width: 800px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 2em 2em 0em 0em;
 
 	display: flex;
   	align-items: center;
+  	justify-content: center;
+
+  	border: 2px solid black;
+  	border-bottom: 0px;
+
+
+}
+
+.container {
+	padding-inline: 20px;
+	width: 800px;
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 0em 0em 2em 2em;
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+  	border: 2px solid black;
+
+
+}
+
+.container-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
   	justify-content: center;
 }
 
 .page-space {
 	display: flex;
+	flex-direction: column;
   	align-items: center;
   	justify-content: center;
 }
 
 
+@media (max-width: 900px) {
+	.container {
+		width: 90%;
+	}
+	.container-header {
+		width: 90%;
+	}
+	* {
+		font-size: 12px;
+	}
+}
