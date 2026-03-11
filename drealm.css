@@ -1,0 +1,118 @@
+.vegetalife {
+	background-image: url("bg_drealm.png");
+	background-attachment: fixed;
+}
+
+iframe {
+	width: 820px;
+	height:515px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 2em;
+}
+
+p {
+	font-size: 12px;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+}
+
+.logo a img {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 88px;
+	height: 73px;
+}
+
+.page-space {
+	display: flex;
+	flex-direction: column;
+  	align-items: center;
+  	justify-content: center;
+}
+
+
+
+
+
+.container-header {
+	padding-inline: 20px;
+	width: 800px;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 2em 2em 0em 0em;
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+  	border: 2px solid black;
+  	border-bottom: 0px;
+
+
+}
+
+.container {
+	padding-inline: 20px;
+	width: 800px;
+	background-color: white;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+	border-radius: 0em 0em 2em 2em;
+
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+  	border: 2px solid black;
+
+
+}
+
+.container-content {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+  	width: 100%;
+}
+
+
+.button {
+  background-color: rgba(195, 160, 254, 1);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 2em;
+  border: 2px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover, .button:active {
+  background-color: rgba(143, 180, 223, 1);
+  color: white;
+}
+
+
+
+@media (max-width: 900px) {
+	.container {
+		width: 90%;
+	}
+	.container-header {
+		width: 90%;
+	}
+	* {
+		font-size: 12px;
+	}
+	iframe {
+	width: 90%;
+	height: auto;
+}
+}
