@@ -1,92 +1,282 @@
 <!DOCTYPE html>
-<html lang="fr" >
-
+<html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Evan Humeau - Portfolio</title>
-  <link rel="icon" type="image/x-icon" href="logo.ico">
+<meta charset="UTF-8">
 <link rel="stylesheet" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
-<style>
-body {
-    font-family: 'Roboto Mono';
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Evan Humeau — Portfolio de Game Designer</title>
+<link rel="icon" type="image/x-icon" href="logo.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
+<body>
 
-<body class="homepage">
+<!-- NAV -->
+<nav>
+  <!-- <a href="#" class="nav-logo">Evan Humeau</a> -->
+  <a href="#" class="nav-logo"><img src="retour.png" border="0" width="15px" height="15px"></a>
+  <ul class="nav-links">
+    <li><a href="#about">À propos</a></li>
+    <li><a href="#projects">Créations</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-  <div class="logo">
-    <a href="index.html"><img src="logo.png" border="0"></a>
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg-number" aria-hidden="true">Portfolio</div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Evan Humeau</p>
+    <h1 class="hero-title">Game &amp; Level Designer<br><em></em></h1>
+    <p class="hero-desc">
+      Actuellement étudiant en deuxième année de Master HIC, parcours Management, Jeux vidéo, Image, Créativité à l'Université Côte d'Azur à Cannes, je conçois des expériences grâce à mes compétences en game design et en programmation.
+      C'est avec grand plaisir que je vous fais part de mes créations, accumulées au cours de mes nombreuses expériences.
+    </p>
+    <a href="#projects" class="hero-cta">
+      Découvrir mes créations →
+    </a>
   </div>
+  <div class="scroll-hint" aria-hidden="true">
+    <div class="scroll-line"></div>
+    Scroll
+  </div>
+</section>
 
-  <div class="page-space">
-
-    <div class="container-header" style="background-color: rgba(152, 231, 132, 1);">
-      <h3> Présentation </h3>
-    </div>
-
-    <div class="container">
-      <div class="container-content">
-        <div class="column">
-          <div class="row">
-            <div style="margin: 10px;">
-              <img src="evan.png" border="0" style="width: 80px; height: 80px; border-radius: 4em; border: 2px solid black;">
-            </div>
-
-            <div style="margin: 10px;">
-              <p> Je m'appelle <b>Evan Humeau</b>, actuellement étudiant en 2ème année de master HIC MAJIC à l'Université de Cannes, je souhaiterais intégrer le milieu des jeux vidéos. </p>
-            </div>
-          </div>
-        </div>
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-left">
+    <p class="section-label">À propos</p>
+    <h2 class="about-title">La créativité,<br>un moteur qui m’anime depuis toujours</h2>
+    <p class="about-text">
+      C’est très jeune que j’entame mon voyage dans la création de jeux vidéo avec le moteur Game Engine. C’est en produisant mes premiers prototypes que je découvre une passion pour la réalisation de jeux aux mécaniques et aux gameplays variés.
+    </p>
+    <p class="about-text">
+      C’est avec le logiciel de création "Hammer" que je fais mes premiers pas en tant que Level Designer pour le jeu Garry's Mod, où j’apprends à réaliser mes premières "maps".
+    </p>
+    <p class="about-text">
+      Aujourd’hui, je travaille principalement avec le moteur de jeu Unity, que je maîtrise très bien, afin de réaliser des prototypes me permettant d’explorer différents concepts.
+    </p>
+  </div>
+  <div class="about-right">
+    <p class="section-label">Compétences</p>
+    <div class="skills-grid">
+      <div class="skill-item">
+        <p class="skill-item-label">Programmation</p>
+        <p class="skill-item-value">Unity (C#) · Unreal (blueprint)</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Outils</p>
+        <p class="skill-item-value">Git · Visual Studio</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Game Design</p>
+        <p class="skill-item-value">Mécaniques · Rédaction GDD</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Outils</p>
+        <p class="skill-item-value">Figma · Miro</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Management</p>
+        <p class="skill-item-value">Gestion et attribution des tâches lors d'un projet</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Outils</p>
+        <p class="skill-item-value">Fork · Trello · Jira</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Art</p>
+        <p class="skill-item-value">Bases en modélisation 3D</p>
+      </div>
+      <div class="skill-item">
+        <p class="skill-item-label">Outils</p>
+        <p class="skill-item-value">Blender · Maya</p>
       </div>
     </div>
-
-<br>
-
-    <div class="container-header" style="background-color: rgba(231, 132, 132, 1);">
-      <h3> Compétences </h3>
-    </div>
-
-    <div class="container">
-
-        <div class="carousel">
-
-            <div style="margin: 20px; margin-left: 0px;">
-              <p>| <b>Game Design</b> |</p>
-            </div>
-            
-            <div style="margin: 20px; margin-left: 0px;">
-              <p>| Développement de jeux Unity(C#) |</p>
-            </div>
-
-            <div style="margin: 20px; margin-left: 0px;">
-              <p>| Testeur QA |</p>
-            </div>
-
-
-        </div>
-
-    
-    </div>
-
-<br>
-
-
-
-<div class="carousel">
-
-      <div style="margin: 10px;">
-        <a class="button" href="creations.html"><b>Créations</b></a>
-      </div>
-
-    </div>
-      
   </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <p class="section-label">Projets sélectionnés</p>
+
+  <div class="projects-list">
+
+    <!-- PROJECT 1 -->
+    <article class="project-entry">
+      <div class="project-left">
+        <p class="project-number">01 / Mars 2026</p>
+        <h2 class="project-title1">Drealm</h2>
+        <div class="project-tags">
+          <span class="tag">Unity</span>
+          <span class="tag">Party-game</span>
+          <span class="tag">2D &amp; 3D</span>
+          <span class="tag">de 2 à 4 joueurs</span>
+        </div>
+        <p class="project-desc">
+          Drealm est un <b>party game</b> destiné à un public très large (enfants, jeunes adultes, parents, grands-parents). Il se joue de 2 à 4 joueurs en local, où les participants s’affrontent dans différents <b>mini-jeux</b> afin d’obtenir du temps de récolte, leur permettant ensuite de collecter un maximum de points. 
+        </p>
+        <ul class="project-details">
+          <li>Initiateur du projet Drealm</li>
+          <li>Conception de la boucle de gameplay principale et de plusieurs mini-jeux</li>
+          <li>Testeur QA et équilibrage des mini-jeux</li>
+          <li>Rédaction des documents de game design</li>
+          <li>Management de l'équipe de 15 personnes (chargé de la bonne communication entre les pôles)</li>
+          <li>Préparation de réunions hebdomadaire</li>
+        </ul>
+        <a href="https://evanhumeau.itch.io/drealm" target="_blank" class="project-link">Page du projet →</a>
+      </div>
+      <div class="project-right">
+        <div class="project-media">
+          <video src="drealmpreview.mp4" autoplay="true" loop="loop" muted="true">
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 2 -->
+    <article class="project-entry">
+      <div class="project-left">
+        <p class="project-number">02 / Juin 2025</p>
+        <h2 class="project-title2">Entre-prises</h2>
+        <div class="project-tags">
+          <span class="tag">Unity</span>
+          <span class="tag">3D</span>
+          <span class="tag">Jeu de cartes</span>
+          <span class="tag">Deck Building</span>
+        </div>
+        <p class="project-desc">
+          Jeu de cartes <b>stratégique</b> où il faut rallier le plus d'entre-prises concurrentes à la sienne.
+          Conçu dans le cadre d’un <b>projet universitaire</b>, ce jeu est né d’un jeu de mots et de la détermination des petites mains qui l’ont fabriqué avec amour.
+        </p>
+        <ul class="project-details">
+          <li>Conception de la boucle de gameplay principale</li>
+          <li>Rédaction des documents de game design</li>
+        </ul>
+        <a href="https://adrigollum.itch.io/entre-prises" class="project-link" target="_blank">Page du projet →</a>
+      </div>
+      <div class="project-right">
+        <div class="project-media">
+          <video src="entreprisespreview.mp4" autoplay="true" loop="loop" muted="true">
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 3 -->
+    <article class="project-entry">
+      <div class="project-left">
+        <p class="project-number">03 / Mai 2025</p>
+        <h2 class="project-title3">VégétaLife</h2>
+        <div class="project-tags">
+          <span class="tag">Unity</span>
+          <span class="tag">2D</span>
+          <span class="tag">Point and Click</span>
+          <span class="tag">Jeu Sérieux éducatif</span>
+        </div>
+        <p class="project-desc">
+          Jeu sérieux réalisé dans le cadre du projet One Health initié par VEGEPOLYS VALLEY et la plateforme GAMAE de L'INRAE, financé par Clermont Auvergne Métropole.
+        </p>
+        <ul class="project-details">
+          <li>Participation à la réflexion du contenu des chapitres</li>
+          <li>Développement des scripts et mécaniques sur le moteur</li>
+          <li>Equilibrage de la difficultée des niveaux</li>
+          <li>Réalisation de tests en école</li>
+        </ul>
+        <a href="https://vegetalife.dev.territoires.inrae.fr/" class="project-link">Page du projet →</a>
+      </div>
+      <div class="project-right">
+        <div class="project-media">
+          <!-- <video src="vegetalifepreview.mp4" autoplay="true" loop="loop" muted="true"> -->
+            <img src="preview_vegetalife.png" border="0">
+        </div>
+      </div>
+    </article>
+
+    <!-- PROJECT 4 -->
+    <article class="project-entry">
+      <div class="project-left">
+        <p class="project-number">04 / Mars 2025</p>
+        <h2 class="project-title4">La Bergère de Nuages</h2>
+        <div class="project-tags">
+          <span class="tag">Unity</span>
+          <span class="tag">2D</span>
+          <span class="tag">Point and Click</span>
+          <span class="tag">Jeu Narratif</span>
+        </div>
+        <p class="project-desc">
+          Jeu point and click narratif, projet Master MAJIC de l'année 2024-2025 réalisé pour le Festival International des Jeux de Cannes.
+        </p>
+        <ul class="project-details">
+          <li>Conception des énigmes</li>
+          <li>Rédaction des documents de game design</li>
+          <li>Développement sur moteur de la partie du jeu dans la maison</li>
+        </ul>
+        <a href="https://vegetalife.dev.territoires.inrae.fr/" class="project-link">Page du projet →</a>
+      </div>
+      <div class="project-right">
+        <div class="project-media">
+          <video src="bergerepreview.mp4" autoplay="true" loop="loop" muted="true">
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div>
+    <p class="section-label">Contact</p>
+    <h2 class="contact-title">Me Contacter</h2>
+  </div>
+  <div class="contact-right">
+    <p class="contact-desc">
+      À la recherche d'un emploi en tant que Game ou Level Designer. 
+      N'hésitez pas à me contacter.
+    </p>
+    <div class="contact-links">
+      <a href="mailto:ton@email.com" class="contact-link-item">
+        <span class="contact-link-label">Email</span>
+        <span class="contact-link-value">evan.humeau.pro@gmail.com</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://linkedin.com" target="_blank" class="contact-link-item">
+        <span class="contact-link-label">LinkedIn</span>
+        <span class="contact-link-value">linkedin.com/in/evan-humeau-2a44961a0</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://github.com" target="_blank" class="contact-link-item">
+        <span class="contact-link-label">Youtube</span>
+        <span class="contact-link-value">youtube.com/@evanhumeau</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+      <a href="https://itch.io" target="_blank" class="contact-link-item">
+        <span class="contact-link-label">itch.io</span>
+        <span class="contact-link-value">evanhumeau.itch.io</span>
+        <span class="contact-arrow">↗</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p class="footer-copy">© 2026 Evan Humeau — Game Designer</p>
+  <p class="footer-copy">Conçu &amp; développé avec l'aide de l'intelligence artificielle Claude.</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.project-entry').forEach(el => observer.observe(el));
+</script>
 
 </body>
-
-
 </html>
