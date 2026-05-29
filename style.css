@@ -227,8 +227,8 @@
     margin-bottom: 2rem;
 
     color: rgba(152, 231, 132, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .about-text {
@@ -318,8 +318,8 @@
     margin-bottom: 1rem;
 
     color: rgba(195, 160, 254, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .project-title2 {
@@ -329,8 +329,8 @@
     margin-bottom: 1rem;
     
     color: rgba(166, 206, 251, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .project-title3 {
@@ -340,8 +340,8 @@
     margin-bottom: 1rem;
     
     color: rgba(255, 167, 246, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .project-title4 {
@@ -351,8 +351,8 @@
     margin-bottom: 1rem;
     
     color: rgba(191, 246, 253, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .project-tags {
@@ -503,8 +503,8 @@
     letter-spacing: -0.02em;
 
     color: rgba(231, 132, 132, 1);
-    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    /*text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000,
+               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;*/
   }
 
   .contact-title em { font-style: italic; color: var(--gray-400); }
